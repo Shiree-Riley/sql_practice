@@ -1,0 +1,350 @@
+
+------------------------------------------------------------------------------------
+MySQL Workbench Migration Wizard Report
+
+Date: Mon Jul 19 23:51:28 2021
+Source: Microsoft SQL Server 15.0.2000
+Target: MySQL 8.0.23
+------------------------------------------------------------------------------------
+
+I. Migration
+
+1. Summary
+
+Number of migrated schemas: 1
+
+1. Northwind_SPP
+Source Schema:   Northwind_SPP
+
+- Tables:             9
+- Triggers:           0
+- Views:              0
+- Stored Procedures:  0
+- Functions:          0
+
+
+2. Migration Issues
+  - Northwind_SPP
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Categories
+    warning  Autoincrement unset for column CategoryID: Autoincrement for non primary key columns is not allowed in MySQLnote  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CategoryName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Description
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CustomerGroupThresholds
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CustomerGroupName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Customers
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CustomerID
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CompanyName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ContactName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ContactTitle
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Address
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - City
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Region
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - PostalCode
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Country
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Phone
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Fax
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Employees
+    warning  Autoincrement unset for column EmployeeID: Autoincrement for non primary key columns is not allowed in MySQLnote  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - LastName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - FirstName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Title
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - TitleOfCourtesy
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Address
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - City
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Region
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - PostalCode
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Country
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - HomePhone
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Extension
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Notes
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - PhotoPath
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - OrderDetails
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Orders
+    warning  Autoincrement unset for column OrderID: Autoincrement for non primary key columns is not allowed in MySQLnote  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CustomerID
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ShipName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ShipAddress
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ShipCity
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ShipRegion
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ShipPostalCode
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ShipCountry
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Products
+    warning  Autoincrement unset for column ProductID: Autoincrement for non primary key columns is not allowed in MySQLnote  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ProductName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - QuantityPerUnit
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Discontinued
+    note  Source column type BIT was migrated to TINYINT(1)
+  - Shippers
+    warning  Autoincrement unset for column ShipperID: Autoincrement for non primary key columns is not allowed in MySQLnote  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CompanyName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Phone
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Suppliers
+    warning  Autoincrement unset for column SupplierID: Autoincrement for non primary key columns is not allowed in MySQLnote  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - CompanyName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ContactName
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - ContactTitle
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Address
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - City
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Region
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - PostalCode
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Country
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Phone
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - Fax
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+  - HomePage
+    note  Collation SQL_Latin1_General_CP1_CI_AS migrated to utf8_general_ci
+
+
+3. Object Creation Issues
+
+
+4. Migration Details
+
+4.1. Table Northwind_SPP.Categories (Categories)
+
+Columns:
+  - CategoryID INT    
+  - CategoryName VARCHAR(15)    
+  - Description LONGTEXT    
+
+Foreign Keys:
+
+Indices:
+  - PK_Categories (CategoryID)
+
+
+4.2. Table Northwind_SPP.CustomerGroupThresholds (CustomerGroupThresholds)
+
+Columns:
+  - CustomerGroupName VARCHAR(20)    
+  - RangeBottom DECIMAL(19,4)    
+  - RangeTop DECIMAL(19,4)    
+
+Foreign Keys:
+
+Indices:
+
+
+4.3. Table Northwind_SPP.Customers (Customers)
+
+Columns:
+  - CustomerID CHAR(5)    
+  - CompanyName VARCHAR(40)    
+  - ContactName VARCHAR(30)    
+  - ContactTitle VARCHAR(30)    
+  - Address VARCHAR(60)    
+  - City VARCHAR(15)    
+  - Region VARCHAR(15)    
+  - PostalCode VARCHAR(10)    
+  - Country VARCHAR(15)    
+  - Phone VARCHAR(24)    
+  - Fax VARCHAR(24)    
+
+Foreign Keys:
+
+Indices:
+  - PK_Customers (CustomerID)
+
+
+4.4. Table Northwind_SPP.Employees (Employees)
+
+Columns:
+  - EmployeeID INT    
+  - LastName VARCHAR(20)    
+  - FirstName VARCHAR(10)    
+  - Title VARCHAR(30)    
+  - TitleOfCourtesy VARCHAR(25)    
+  - BirthDate DATETIME(6)    
+  - HireDate DATETIME(6)    
+  - Address VARCHAR(60)    
+  - City VARCHAR(15)    
+  - Region VARCHAR(15)    
+  - PostalCode VARCHAR(10)    
+  - Country VARCHAR(15)    
+  - HomePhone VARCHAR(24)    
+  - Extension VARCHAR(4)    
+  - Notes LONGTEXT    
+  - ReportsTo INT    
+  - PhotoPath VARCHAR(255)    
+
+Foreign Keys:
+  - FK_Employees_Employees (ReportsTo) ON Employees (EmployeeID)
+
+Indices:
+  - PK_Employees (EmployeeID)
+
+
+4.5. Table Northwind_SPP.OrderDetails (OrderDetails)
+
+Columns:
+  - OrderID INT    
+  - ProductID INT    
+  - UnitPrice DECIMAL(19,4)  0  
+  - Quantity SMALLINT  1  
+  - Discount FLOAT(24,0)  0  
+
+Foreign Keys:
+  - FK_Order_Details_Orders (OrderID) ON Orders (OrderID)
+  - FK_Order_Details_Products (ProductID) ON Products (ProductID)
+
+Indices:
+  - PK_Order_Details (OrderID, ProductID)
+
+
+4.6. Table Northwind_SPP.Orders (Orders)
+
+Columns:
+  - OrderID INT    
+  - CustomerID CHAR(5)    
+  - EmployeeID INT    
+  - OrderDate DATETIME(6)    
+  - RequiredDate DATETIME(6)    
+  - ShippedDate DATETIME(6)    
+  - ShipVia INT    
+  - Freight DECIMAL(19,4)  0  
+  - ShipName VARCHAR(40)    
+  - ShipAddress VARCHAR(60)    
+  - ShipCity VARCHAR(15)    
+  - ShipRegion VARCHAR(15)    
+  - ShipPostalCode VARCHAR(10)    
+  - ShipCountry VARCHAR(15)    
+
+Foreign Keys:
+  - FK_Orders_Customers (CustomerID) ON Customers (CustomerID)
+  - FK_Orders_Employees (EmployeeID) ON Employees (EmployeeID)
+  - FK_Orders_Shippers (ShipVia) ON Shippers (ShipperID)
+
+Indices:
+  - PK_Orders (OrderID)
+
+
+4.7. Table Northwind_SPP.Products (Products)
+
+Columns:
+  - ProductID INT    
+  - ProductName VARCHAR(40)    
+  - SupplierID INT    
+  - CategoryID INT    
+  - QuantityPerUnit VARCHAR(20)    
+  - UnitPrice DECIMAL(19,4)  0  
+  - UnitsInStock SMALLINT  0  
+  - UnitsOnOrder SMALLINT  0  
+  - ReorderLevel SMALLINT  0  
+  - Discontinued TINYINT(1)  0  
+
+Foreign Keys:
+  - FK_Products_Categories (CategoryID) ON Categories (CategoryID)
+  - FK_Products_Suppliers (SupplierID) ON Suppliers (SupplierID)
+
+Indices:
+  - PK_Products (ProductID)
+
+
+4.8. Table Northwind_SPP.Shippers (Shippers)
+
+Columns:
+  - ShipperID INT    
+  - CompanyName VARCHAR(40)    
+  - Phone VARCHAR(24)    
+
+Foreign Keys:
+
+Indices:
+  - PK_Shippers (ShipperID)
+
+
+4.9. Table Northwind_SPP.Suppliers (Suppliers)
+
+Columns:
+  - SupplierID INT    
+  - CompanyName VARCHAR(40)    
+  - ContactName VARCHAR(30)    
+  - ContactTitle VARCHAR(30)    
+  - Address VARCHAR(60)    
+  - City VARCHAR(15)    
+  - Region VARCHAR(15)    
+  - PostalCode VARCHAR(10)    
+  - Country VARCHAR(15)    
+  - Phone VARCHAR(24)    
+  - Fax VARCHAR(24)    
+  - HomePage LONGTEXT    
+
+Foreign Keys:
+
+Indices:
+  - PK_Suppliers (SupplierID)
+
+
+II. Data Copy
+
+  - `Northwind_SPP`.`Categories`
+            Succeeded : copied 8 of 8 rows from [Northwind_SPP].[dbo].[Categories]    
+  - `Northwind_SPP`.`CustomerGroupThresholds`
+            Succeeded : copied 4 of 4 rows from [Northwind_SPP].[dbo].[CustomerGroupThresholds]    
+  - `Northwind_SPP`.`Customers`
+            Succeeded : copied 91 of 91 rows from [Northwind_SPP].[dbo].[Customers]    
+  - `Northwind_SPP`.`Employees`
+            Succeeded : copied 9 of 9 rows from [Northwind_SPP].[dbo].[Employees]    
+  - `Northwind_SPP`.`OrderDetails`
+            Succeeded : copied 2155 of 2155 rows from [Northwind_SPP].[dbo].[OrderDetails]    
+  - `Northwind_SPP`.`Orders`
+            Succeeded : copied 830 of 830 rows from [Northwind_SPP].[dbo].[Orders]    
+  - `Northwind_SPP`.`Products`
+            Succeeded : copied 77 of 77 rows from [Northwind_SPP].[dbo].[Products]    
+  - `Northwind_SPP`.`Shippers`
+            Succeeded : copied 3 of 3 rows from [Northwind_SPP].[dbo].[Shippers]    
+  - `Northwind_SPP`.`Suppliers`
+            Succeeded : copied 29 of 29 rows from [Northwind_SPP].[dbo].[Suppliers]    
+
+
